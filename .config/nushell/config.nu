@@ -5,4 +5,6 @@ $env.config = {
     }
 }
 
+alias dotfiles = git --git-dir=$"($env.HOME)/.dotfiles" --work-tree=$"($env.HOME)"
+
 use ~/.cache/starship/init.nu

@@ -61,7 +61,8 @@ bindsym $mod+p exec grimshot save active
 bindsym $mod+Shift+p exec grimshot save area
 
 bar {
-    swaybar_command waybar
+    position top
+    status_command while date +"%Y-%m-%d %X"; do sleep 1; done
 }
 
 include /etc/sway/config.d/*

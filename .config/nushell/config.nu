@@ -5,4 +5,5 @@ $env.config = {
     }
 }
 
-alias dotfiles = git --git-dir=$"($env.HOME)/.dotfiles" --work-tree=$"($env.HOME)"
+source ~/.zoxide.nu
+use ~/.cache/starship/init.nu

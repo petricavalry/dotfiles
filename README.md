@@ -3,5 +3,5 @@
 ## Installation
 
 ```console
-stow --no-folder .
+stow --no-folding .
 ```
